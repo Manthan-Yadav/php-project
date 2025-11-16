@@ -33,7 +33,7 @@ $user_email = $_SESSION['user_email'] ?? null;
                 <li><a href="?page=internships">Internships</a></li>
                 <?php if ($is_logged_in): ?>
                     <li style="display: flex; align-items: center; gap: 10px;">
-                        <img src="login image.jpg" alt="Profile" class="profile-img" title="<?php echo htmlspecialchars($user_email); ?>">
+                        <img src="login image2.webp" alt="Profile" class="profile-img" title="<?php echo htmlspecialchars($user_email); ?>">
                         <a href="php/logout.php">Logout</a>
                     </li>
                 <?php else: ?>
